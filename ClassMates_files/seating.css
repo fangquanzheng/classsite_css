@@ -1,0 +1,18 @@
+.absences
+{
+    position:absolute;
+    top:20px;
+    left:300px;
+}
+
+.hidden
+{
+ display:none;
+
+}
+
+.seat_pic
+{
+//    clip-path: circle(15px at 15px 20px);
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://turing.centre.edu:3000/updateAccount -->
+<html class="gr__turing_centre_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+
+    Account Page
+
+    </title>
+
+<link rel="stylesheet" type="text/css" href="neon_style.css">
+
+
+  </head>
+  <body data-gr-c-s-loaded="true">
+    <div class="header">
+
+      <div class="person_info">
+  <img src="./Account_Page_files/student30.png" class="person_image">
+  <audio id="nameSound30">
+    <source src="/names/horse.ogg" type="audio/ogg">
+  </audio>
+  <div class="sound" onclick="document.getElementById(&quot;nameSound30&quot;).play()" '="">
+  </div>
+
+  <span class="username">
+    Amon Otsuki
+  </span>
+
+</div>
+
+        <div class="partners">
+          Partners
+
+        <div class="person_info">
+  <img src="./Account_Page_files/student20.png" class="person_image">
+  <audio id="nameSound20">
+    <source src="/names/horse.ogg" type="audio/ogg">
+  </audio>
+  <div class="sound" onclick="document.getElementById(&quot;nameSound20&quot;).play()" '="">
+  </div>
+
+  <span class="username">
+    Newcomb Maddux
+  </span>
+
+    <a href="http://turing.centre.edu:3000/partnerLogout/20">Logout Partner</a>
+
+</div>
+
+        </div>
+
+        <div class="nav">
+        <a href="http://turing.centre.edu:3000/logout">logout</a>
+        <a href="Account_Page.html">myAccount</a>
+        <a href="http://turing.centre.edu:3000/home">Home</a>
+        <a href="ClassMates.htm">ClassMates</a>
+        <a href="http://turing.centre.edu:3000/seating">Seating</a>
+
+      </div>
+
+    </div>
+<form class="account_form" action="http://turing.centre.edu:3000/updateAccount" method="post" enctype="multipart/form-data">
+
+<div class="title">
+  Update your account
+</div>
+
+<label>First Name</label>
+<input type="text" name="person_first_name" value="Amon ">
+<label>Prefered Name</label>
+<input type="text" name="person_prefered_name" value="Amon ">
+<label>Last Name</label>
+<input type="text" name="person_last_name" value="Otsuki ">
+<label>Prefered Pronouns</label>
+<input type="text" name="person_prefered_pronoun" value="He ">
+<label>What Cause drives you? </label>
+<input type="text" name="cause_desc" value="I would like to make a new &quot;system&quot; or a product in a society that would make values.  I want to solve a prblem with creativity. ">
+
+
+<label>Your Profile Picture</label>
+<img class="person_image" src="./Account_Page_files/student30.png" alt="Amon Otsuki">
+
+<input type="file" name="person_image_file" value="Upload New Picture">
+
+<label>Your spoken name, in OGG format</label>
+<input type="file" name="person_voice_name_file" value="Upload OGG sound">
+
+<label> Your prefered CSS account </label>
+<input type="text" name="person_css" value="https://fangquanzheng.github.io/classsite_css/neon_style.css">
+
+<input type="submit" name="account_submit" value="Update">
+
+
+
+</form>
+
+
+</body></html>

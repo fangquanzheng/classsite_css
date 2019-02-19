@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'neoneonregular';
+  src: url('font/neoneon-webfont.woff2') format('woff2'),
+       url('font/neoneon-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 00px #fff, 0 0 00px #fff, 0 0 00px #e60073, 0 0 00px #e60073, 0 0 00px #e60073, 0 0 00px #e60073, 0 0 0px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+h1{
+  -webkit-animation: glow 100s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+body{
+  background-image: url("images/black-brick-dark.jpg");
+  background-size: contain;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'neoneonregular';
+  color: red;
+  font-size: 50px;
+}
+
+.day-box{
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 7px;
+}
+
+.person_info > img{
+  width: 300px;
+  height: 300px;
+}
