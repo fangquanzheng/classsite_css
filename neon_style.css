@@ -15,30 +15,52 @@
 
 }
 
-@-webkit-keyframes glow {
+@-webkit-keyframes glowText {
   from {
-    text-shadow: 0 0 3px rgba(255, 0, 0, 0.3), 0 0 5px rgba(255, 0, 0, 0.3), 0 0 7px rgba(255, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.3),
-                  0 0 10px rgba(255, 0, 0, 0.3), 0 0 00px #e60073, 0 0 0px #e60073;
+    text-shadow: 0 0 0px rgba(255, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.3), 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.3),
+                  0 0 40px rgba(255, 0, 0, 0.3);
   }
   to {
-    text-shadow: 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.3), 0 0 50px rgba(255, 0, 0, 0.3),
-                  0 0 60px rgba(255, 0, 0, 0.3), 0 0 70px rgba(255, 0, 0, 0.3), 0 0 80px rgba(255, 0, 0, 0.3);
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.3), 0 0 70px rgba(255, 0, 0, 0.3), 0 0 80px rgba(255, 0, 0, 0.3), 0 0 90px rgba(255, 0, 0, 0.3),
+                  0 0 200px rgba(255, 0, 0, 0.3);
+  }
+}
+
+@-webkit-keyframes glow_border {
+	from {
+		box-shadow: 0 0 3px rgba(255, 0, 0, 0.3), 0 0 5px rgba(255, 0, 0, 0.3), 0 0 7px rgba(255, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.3),
+									0 0 10px rgba(255, 0, 0, 0.3), 0 0 00px #e60073, 0 0 0px #e60073;
+	}
+	to {
+		box-shadow: 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.3), 0 0 50px rgba(255, 0, 0, 0.3),
+									0 0 60px rgba(255, 0, 0, 0.3), 0 0 70px rgba(255, 0, 0, 0.3), 0 0 80px rgba(255, 0, 0, 0.3);
+	}
+}
+
+@-webkit-keyframes glowBox {
+  from {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.3), 0 0 50px rgba(255, 0, 0, 0.3);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.3), 0 0 40px rgba(255, 0, 0, 0.3), 0 0 50px rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0, 0.3)
   }
 }
 
 h1{
   text-align: center;
-  -webkit-animation: glow 10s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowText 10s ease-in-out infinite alternate;
+  -moz-animation: glowText 1s ease-in-out infinite alternate;
+  animation: glowText   1s ease-in-out infinite alternate;
   font-family: "neoneonregular";
+  border-radius: 300px;
 }
 
 .header{
   border:solid;
   border-width: 5px;
   border-color: white;
-}
+  }
 
 body{
   background-image: url("images/black-brick-dark.jpg");
@@ -57,11 +79,19 @@ body > table{
 }
 
 .person_image{
-  
+
+}
+
+td:nth-child(1){
+  position: relative;
+}
+
+td:nth-child(2){
+  position: absolute;
+  top: 3em
 }
 
 td{
-  width:50%;
 }
 
 th{
@@ -74,8 +104,20 @@ img{
 }
 
 .day-box{
-  border-style: solid;
-  border-width: 3px;
-  margin-top: 7px;
-  f
+	border-style: solid ;
+	border:2px
+	border-radius:25px;
+	border-width: 3px;
+	margin-top: 50px;
+	padding: 30px;
+	animation:glow_border 1s ease-in-out infinite alternate;
+}
+
+body > svg{
+  width:100%;
+}
+
+.seat_pic{
+  width: 120px;
+  height: 100px;
 }
