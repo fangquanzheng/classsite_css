@@ -660,6 +660,14 @@ form > input{
 	height: 25px;;
 }
 
-.assignment_form{
-	height: 3000px;
+.assignment_submit{
+	color: white;
+	font-size: 20px;
+	font-size: 30px;
+		height: 40px;
+		border: solid;
+		background-color: transparent;
+		box-shadow: var(--blue-neon-box);
+		border-radius: 15px;
+		margin-top: 30px;
 }
