@@ -322,7 +322,7 @@ h1{
 	}
 
 	svg{
-		flex: 0 0 60%;
+		flex: 0 0 40%;
 		margin-left: 10%;
 		border-style: solid;
 		border-radius: 50px;
@@ -331,6 +331,8 @@ h1{
 		text-align: center;
 		margin-top: auto;
 		margin-bottom: auto;
+		margin-left: 500px;
+		margin-right: 230px;
 	}
 
 	svg image{
@@ -478,12 +480,20 @@ h1{
 	}
 
 	.grade-table{
+		color: white;
+		border-color: white;
+		border-radius: 25px;
 		flex: 0 0 60%;
 		height: 100;
 		margin-left: 30px;
 		text-shadow: var(--purple-neon);
 		height: 1000px;
 		color: white;
+		margin-left: 40px;
+		padding-left: 30px;
+		padding-right:30px;
+		border-style: solid;
+		animation:glow_current 2s ease-in-out infinite alternate;
 	}
 	.day-box{
 		height: 100%;
