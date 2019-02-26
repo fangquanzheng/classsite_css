@@ -579,6 +579,7 @@ h1{
 		color:white;
 	}
 
+
 	.lab-box:hover{
 		text-shadow: var(--red-neon-active);
 	}
@@ -670,4 +671,19 @@ form > input{
 		box-shadow: var(--blue-neon-box);
 		border-radius: 15px;
 		margin-top: 30px;
+}
+
+.assignment_text_comments{
+	}
+
+.rubric_score > tr{
+	margin-bottom: 30px;
+}
+
+.assignment_link:hover{
+	text-shadow: var(--red-neon-active);
+}
+
+.lab-box:hover{
+	text-shadow: var(--red-neon-active);
 }
