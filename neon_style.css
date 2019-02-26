@@ -659,3 +659,7 @@ form > input{
 	margin-left: 10px;
 	height: 25px;;
 }
+
+.assignment_form{
+	height: 3000px;
+}
