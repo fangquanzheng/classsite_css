@@ -572,3 +572,80 @@ h1{
 	.lab-box:hover{
 		text-shadow: var(--red-neon-active);
 	}
+
+.PREP{
+		border-style: solid;
+		border:2px
+		border-width: 3px;
+		border-radius: 50px;
+		border-color: khaki;
+		margin-top: 50px;
+		padding: 30px;
+		animation:glow_prep 2s ease-in-out infinite alternate;
+	}
+.CURRENT{
+	border-style: solid;
+	border:2px
+	border-width: 3px;
+	border-radius: 50px;
+	border-color: darkseagreen;
+	margin-top: 50px;
+	padding: 30px;
+	animation:glow_current 2s ease-in-out infinite alternate;
+	}
+.COMPLETED{
+	border-style: solid;
+	border:2px
+	border-width: 3px;
+	border-radius: 50px;
+	border-color: lightCyan;
+	margin-top: 50px;
+	padding: 30px;
+	animation:glow_completed 2s ease-in-out infinite alternate;
+}
+
+form{
+	float: right;
+		margin-top: 3%;
+		height: 460px;
+		margin-left: 20px;
+		border: solid;
+		color: white;
+		box-shadow: var(--blue-neon-box);
+		font-size: 30px;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: auto;
+		border-radius: 25px;
+		text-shadow: var(--purple-neon);
+	}
+
+form > img.person_image{
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+form.title{
+	text-align:center;
+	display: block;
+	margin-bottom: 10px;
+
+}
+
+form > *{
+	float: left;
+	display: block;
+}
+
+form > label{
+	display: block;
+	clear: left;
+}
+
+form > input{
+	padding-top: 0;
+	margin-left: 10px;
+	height: 25px;;
+}
