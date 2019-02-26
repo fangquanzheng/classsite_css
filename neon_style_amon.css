@@ -81,8 +81,31 @@ ul li{
 	display: inline;
 }
 
+.absences.hidden{
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
 .person_info{
 	text-shadow: var(--blue-neon);
+	float: left;
+}
+
+.partners{
+	float: left;
+	color: transparent;
+}
+
+.partners .person_info{
+	color:white;
+}
+
+.nav{
+	float: left;
+}
+
+.nav a{
 }
 
 .nav a{
