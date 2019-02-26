@@ -25,18 +25,18 @@ from {
 }
 @-webkit-keyframes glow_completed {
 from {
-		box-shadow: inset 0 10px 40px #686d65, inset 0 10px 50px #686d65, inset -20px 10px 60px #686d65, inset 0 10px 70px #686d65, inset -20px 10px 50px #686d65, 0 0 10px #686d65, 0 0 20px #abaea9, 0 0 30px #abaea9, 0 0 40px #abaea9, 0 0 50px #abaea9, 0 0 60px #abaea9, 0 0 70px #abaea9	
+		box-shadow: inset 0 10px 40px #0066ff, inset 0 10px 50px #0066ff, inset -20px 10px 60px #0066ff, inset 0 10px 70px #0066ff, inset -20px 10px 50px #0066ff, 0 0 10px #0066ff, 0 0 20px #99bbff, 0 0 30px #99bbff, 0 0 40px #99bbff, 0 0 50px #99bbff, 0 0 60px #99bbff, 0 0 70px #99bbff
 	}
 	to {
-		box-shadow: inset 0 10px 40px #686d65, inset 0 10px 50px #686d65, inset 0 10px 50px #959892, inset 0 10px 50px #959892, inset 0 10px 50px #959892, 0 0 20px #959892, 0 0 30px #959892, 0 0 40px #959892, 0 0 50px #959892, 0 0 60px #959892, 0 0 70px #959892, 0 0 80px #959892;
+		box-shadow: inset 0 10px 40px #0066ff, inset 0 10px 50px #0066ff, inset 0 10px 50px #4d94ff, inset 0 10px 50px #4d94ff, inset 0 10px 50px #4d94ff, 0 0 20px #4d94ff, 0 0 30px #4d94ff, 0 0 40px #4d94ff, 0 0 50px #4d94ff, 0 0 60px #4d94ff, 0 0 70px #4d94ff, 0 0 80px #4d94ff;
 			}
 }
 @-webkit-keyframes glow_border {
 	from {
-		box-shadow: inset 0 10px 40px #fff, inset 0 10px 50px #f0f, inset -20px 10px 60px #0ff, inset 0 10px 70px #f0f, inset -20px 10px 50px #0ff, 0 0 10px #fff, 0 0 20px #f0f, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff; 
+		box-shadow: inset 0 10px 40px #fff, inset 0 10px 50px #f0f, inset -20px 10px 60px #0ff, inset 0 10px 70px #f0f, inset -20px 10px 50px #0ff, 0 0 10px #fff, 0 0 20px #f0f, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff;
 					}
 	to {
-		box-shadow: inset 0 10px 40px #fff, inset 0 10px 50px #f0f, inset 0 10px 50px #0ff, inset 0 10px 50px #f0f, inset 0 10px 50px #0ff, 0 0 20px #fff, 0 0 30px #f0f,0 0 40px #0ff, 0 0 50px #0ff,0 0 60px #0ff; 
+		box-shadow: inset 0 10px 40px #fff, inset 0 10px 50px #f0f, inset 0 10px 50px #0ff, inset 0 10px 50px #f0f, inset 0 10px 50px #0ff, 0 0 20px #fff, 0 0 30px #f0f,0 0 40px #0ff, 0 0 50px #0ff,0 0 60px #0ff;
 	}
 }
 h1{
@@ -50,7 +50,7 @@ h1{
 	}
 .PREP{
 		border-style: solid;
-		border:2px 
+		border:2px
 		border-width: 3px;
 		border-radius: 50px;
 		border-color: khaki;
@@ -60,7 +60,7 @@ h1{
 	}
 .CURRENT{
 	border-style: solid;
-	border:2px 
+	border:2px
 	border-width: 3px;
 	border-radius: 50px;
 	border-color: darkseagreen;
@@ -70,19 +70,14 @@ h1{
 	}
 .COMPLETED{
 	border-style: solid;
-	border:2px 
+	border:2px
 	border-width: 3px;
 	border-radius: 50px;
-	border-color: white;
+	border-color: lightCyan;
 	margin-top: 50px;
 	padding: 30px;
 	animation:glow_completed 2s ease-in-out infinite alternate;
 }
 .header{
-	border:solid;
-	border-width: 5px;
-	border-color: white;
-	animation:glow_border 2s ease-in-out infinite alternate;
-	border-radius: 50px;
-	padding: 30px
+
 }
