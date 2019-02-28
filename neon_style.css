@@ -78,6 +78,7 @@ body{
 
 body > table{
 	width: 100%;
+	display: block;
 }
 
 .person_image{
@@ -86,6 +87,7 @@ body > table{
 
 td{
 	width:50%;
+	flex: 0 0 30%;
 }
 
 th{
@@ -452,7 +454,8 @@ h1{
 		flex: 0 0 40%;
 		margin-left: 50px;
 		font-size: 25px;
-		height: 1000px;
+		overflow: scroll;
+		height: 100%;
 		padding-top: 40px;
 		padding-bottom: 40px;
 		padding-right: 30px;
@@ -465,7 +468,9 @@ h1{
 	}
 
 	.view_text{
+		flex: 0 0 40%;
 		height: 100%;
+		font-size: 25px;
 		margin-left: 30px;
 		border-style: solid;
 		border-radius: 20px;
@@ -473,10 +478,14 @@ h1{
 		text-shadow: var(--light-blue-neon);
 		color: white;
 		height: 1000px;
-		padding-top: auto;
-		padding-bottom: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
 		padding-right: 30px;
 		padding-left: 40px;
+	}
+
+	.grade-table> tbody > tr:nth-child(4){
+		font-size: 35px;
 	}
 
 	.grade-table{
@@ -536,6 +545,7 @@ h1{
 
 	.reading{
 		padding-left: 20%;
+		position: relative;
 	}
 
 	.reading a{
@@ -696,6 +706,7 @@ form > input{
 .header h2{
 	visibility: hidden;
 }
+
 .grade{
 	position: absolute;
 	top: 0.1em;
