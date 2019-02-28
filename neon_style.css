@@ -85,7 +85,6 @@ body > table{
 }
 
 td{
-	width:50%;
 	flex: 0 0 30%;
 }
 
@@ -498,6 +497,10 @@ h1{
 		width:10%;
 		text-align: center;
 		display: block;
+	}
+
+	.grade-table tr:nth-child(2){
+		
 	}
 
 	.grade-table{
