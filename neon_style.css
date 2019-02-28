@@ -468,6 +468,7 @@ h1{
 	}
 
 	.view_text{
+		overflow: scroll;
 		flex: 0 0 40%;
 		height: 100%;
 		font-size: 25px;
