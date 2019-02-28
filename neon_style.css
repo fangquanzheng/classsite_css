@@ -728,9 +728,3 @@ form > input{
 	position: absolute;
 	top: 0.1em;
 }
-
-.assignment-form{
-	overflow: scroll;
-	padding-top: 30px;
-	padding-bottom: 40px;
-}
