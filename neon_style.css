@@ -78,7 +78,6 @@ body{
 
 body > table{
 	width: 100%;
-	display: block;
 }
 
 .person_image{
@@ -490,6 +489,7 @@ h1{
 	}
 
 	.grade-table{
+		display: block;
 		color: white;
 		border-color: white;
 		border-radius: 25px;
