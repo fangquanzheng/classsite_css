@@ -500,7 +500,7 @@ h1{
 	}
 
 	.grade-table tr:nth-child(2){
-		
+
 	}
 
 	.grade-table{
@@ -727,4 +727,10 @@ form > input{
 .grade{
 	position: absolute;
 	top: 0.1em;
+}
+
+.assignment-form{
+	overflow: scroll;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
