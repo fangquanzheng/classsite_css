@@ -556,10 +556,7 @@ h1{
 		text-shadow: var(--red-neon-active);
 	}
 
-	.grade{
-		position: absolute;
-		top: 0.1em;
-	}
+
 	/*For grading box*/
 	.assignment_link{
 		display: block;
@@ -698,4 +695,8 @@ form > input{
 
 .header h2{
 	visibility: hidden;
+}
+.grade{
+	position: absolute;
+	top: 0.1em;
 }
