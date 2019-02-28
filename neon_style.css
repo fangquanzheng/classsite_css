@@ -695,3 +695,7 @@ form > input{
 .lab-box:hover{
 	text-shadow: var(--red-neon-active);
 }
+
+.header h2{
+	visibility: hidden;
+}
